@@ -21,18 +21,18 @@ with sr.Microphone() as source:
             text = text.split()
             
             for i in text:
-                if (os.path.exists(r"C:\Users\moham\Desktop\asl images\{}.jpg".format(i))):
+                if (os.path.exists(r"Images\{}.jpg".format(i))):
                     #get and show the image
-                    im = Image.open(r"C:\Users\moham\Desktop\asl images\{}.jpg".format(i))
+                    im = Image.open(r"Images\{}.jpg".format(i))
                     im.show()
 
                     #wait and then close the image
                     time.sleep(5)
                     keyboard.send("ctrl+w")
                 
-                elif (os.path.exists(r"C:\Users\moham\Desktop\asl video\{}.mp4".format(i))):
+                elif (os.path.exists(r"Clips\{}.mp4".format(i))):
                     #get and show the visual recording
-                   cap= cv2.VideoCapture(r"C:\Users\moham\Desktop\asl video\{}.mp4".format(i))
+                   cap= cv2.VideoCapture(r"Clips\{}.mp4".format(i))
 
                    fps= int(cap.get(cv2.CAP_PROP_FPS))
 
@@ -60,7 +60,7 @@ with sr.Microphone() as source:
                 else:
                     x = list(i)
                     for j in x:
-                        cap= cv2.VideoCapture(r"C:\Users\moham\Desktop\asl letters\{}.mp4".format(j))
+                        cap= cv2.VideoCapture(r"LettersNumbers\{}.mp4".format(j))
 
                         fps= int(cap.get(cv2.CAP_PROP_FPS))
 
