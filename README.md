@@ -1,5 +1,5 @@
 # ASL-Communication-tests
-The second part of a 2-part project. The first part of the project is to allow communication between someone who can speak and someone who is deaf. While learning ASL or using a 
+ A 2-part project. The first part of the project is to allow communication between someone who can speak and someone who is deaf. While learning ASL or using a 
 translator is always preferable for personal or professional connections, there are instances where this is not a feasible solution. And yes while many deaf people are espectially
 astute at being able to read lips, in a stream or call camera quality can severely affect this ability. As such the first part of the code will take audio input and then from there
 convert it to a series of either images and/or short signes clips to communicate this in signs. In the event a name or number is detected, the program will opt to instead sign a 
