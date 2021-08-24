@@ -1,4 +1,4 @@
-#Update 1
+Update 1
  A 2-part project. The first part of the project is to allow communication between someone who can speak and someone who is deaf. While learning ASL or using a 
 translator is always preferable for personal or professional connections, there are instances where this is not a feasible solution. And yes while many deaf people are espectially
 astute at being able to read lips, in a stream or call camera quality can severely affect this ability. As such the first part of the code will take audio input and then from there
@@ -10,5 +10,5 @@ the sign is and send a text message next to it to notify the non deaf communicat
 As it stands right now the code should be functioning, all there is thats left to do is fully assemble and gather the images/mp4 clips as needed to represent the signs. This can be
 gathered from any reputable asl dictionary
 
-#Update 2
+Update 2
 After much trial and error with object detection, I finally managed to find a system that works. Utilizing the YOLO system for training a model I was able to test andd train a model successfully to recognize the difference between Autobot and Decepticon symbols. With this done on a smaller scale with only 2 classes, I will have to find somewhere where I can train the model with far more classes and a large amount of data for an effective dataset
